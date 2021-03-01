@@ -1,0 +1,75 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  .header {
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    background: rgb(143, 115, 115);
+    margin-top: 2px;
+  }
+  /* footer {
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(128, 102, 94);
+   text-align: center;
+   
+   height: 20px;
+  } */
+  img{
+    width: 100%;
+    height: max-content;
+    margin-top: 2px;
+  }
+
+  nav {
+    height: 25px;
+margin-top: 2px;
+padding: 5px;
+overflow: hidden;
+background-color: rgb(206, 68, 5);
+display: block;
+color: rgb(10, 10, 10);
+  
+}
+nav li{
+  display: inline;
+  float: left;
+  border-right: 1px solid #bbb;
+  margin-bottom: 10px;
+
+
+}
+li a{
+  display: block;
+color: white;
+text-align: center;
+padding: 10px;
+text-decoration: none;
+
+}
+.zero:hover{
+background-color: gray;
+}
+.one:hover{
+          background-color:gray;
+      }
+      .two:hover{
+          background-color: grey;
+      }
+      .three:hover{
+          background-color: grey;
+      }
+      .four:hover{
+          background-color: grey;
+      }
+      .five:hover{
+          background-color: grey;
+      }

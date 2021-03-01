@@ -1,0 +1,86 @@
+ body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Style the header */
+  div{
+    color: rgb(206, 68, 5);
+  }
+ 
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+      height: 25px;
+  margin-top: 2px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: rgb(206, 68, 5);
+  display: block;
+  color: rgb(10, 10, 10);
+    
+  }
+  nav li{
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+    margin-bottom: 10px;
+
+
+  }
+ li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+
+}
+.zero:hover{
+  background-color: gray;
+}
+  .one:hover{
+            background-color:gray;
+        }
+        .two:hover{
+            background-color: grey;
+        }
+        .three:hover{
+            background-color: grey;
+        }
+        .four:hover{
+            background-color: grey;
+        }
+        .five:hover{
+            background-color: grey;
+        }
+
+        article {
+            float: left;
+            padding: 10px;
+            width: 50%;
+            background-color: #f1f1f1;
+            height: 100px; /* only for demonstration, should be removed */
+          }
+  
+  
+  /* Style the footer */
+  footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(206, 68, 5);
+    color: white;
+   text-align: center;
+  }
+  
+  .card {
+    transition: 0.3s;
+  }
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }

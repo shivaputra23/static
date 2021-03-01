@@ -1,0 +1,50 @@
+div{
+    width: 90%;
+  border: 2px solid rgb(7, 7, 7);
+  padding: 5px;
+  margin: 10px;
+}
+nav {
+  height: 25px;
+margin-top: 0;
+padding: 5px;
+overflow: hidden;
+background-color: rgb(206, 68, 5);
+display: block;
+color: rgb(10, 10, 10);
+
+}
+nav li{
+display: inline;
+float: left;
+border-right: 1px solid #bbb;
+margin-bottom: 10px;
+
+
+}
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 10px;
+text-decoration: none;
+
+}
+.zero:hover{
+background-color: gray;
+}
+.one:hover{
+        background-color:gray;
+    }
+    .two:hover{
+        background-color: grey;
+    }
+    .three:hover{
+        background-color: grey;
+    }
+    .four:hover{
+        background-color: grey;
+    }
+    .five:hover{
+        background-color: grey;
+    }
